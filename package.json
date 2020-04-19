@@ -1,0 +1,18 @@
+{
+  "name": "wssmqttwatcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dist": "pkg index.js -o dist/wss-mqtt-watcher -t node12-win-x64",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ray Hu",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^3.13.1",
+    "mqtt": "^3.0.0",
+    "pkg": "^4.4.7"
+  }
+}
