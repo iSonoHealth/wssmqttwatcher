@@ -1,0 +1,4 @@
+version: 0.0.1
+send_version: true
+server_url: ws://localhost:9001
+

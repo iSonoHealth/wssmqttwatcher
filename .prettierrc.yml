@@ -1,0 +1,7 @@
+tabWidth: 4
+semi: false
+bracketSpacing: false
+singleQuote: true
+arrowParens: always
+proseWrap: always
+endOfLine: lf

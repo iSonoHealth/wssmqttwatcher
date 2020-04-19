@@ -1,18 +1,27 @@
 {
-  "name": "wssmqttwatcher",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "dist": "pkg index.js -o dist/wss-mqtt-watcher -t node12-win-x64",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Ray Hu",
-  "license": "ISC",
-  "dependencies": {
-    "js-yaml": "^3.13.1",
-    "mqtt": "^3.0.0",
-    "pkg": "^4.4.7"
-  }
+    "name": "wssmqttwatcher",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dist": "pkg index.js -o dist/wss-mqtt-watcher -t node12-win-x64",
+        "dev": "nodemon index.js",
+        "lint": "eslint --ignore-path .gitignore . --fix && prettier --write . ",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ray Hu",
+    "license": "ISC",
+    "dependencies": {
+        "js-yaml": "^3.13.1",
+        "mqtt": "^3.0.0",
+        "valid-url": "^1.0.9",
+        "yargs": "^15.3.1"
+    },
+    "devDependencies": {
+        "eslint": "^6.8.0",
+        "nodemon": "^2.0.3",
+        "pkg": "^4.4.7",
+        "prettier": "2.0.4"
+    }
 }
